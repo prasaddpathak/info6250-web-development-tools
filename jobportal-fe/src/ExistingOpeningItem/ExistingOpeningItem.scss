@@ -1,0 +1,20 @@
+.ExistingOpeningContainer {
+    background-color:bisque;
+}
+
+.ExistingOpening {
+    display:grid;
+    grid-template-columns: 10% 25% 20% 15% 10% 10% 10% ;
+    padding: 10px;
+}
+
+.AppliedUsers {
+    background-color: aquamarine;
+    margin-left: 50px;
+    
+    .card {
+        padding: 5px;
+        display:grid;
+        grid-template-columns: 20% 35% 15% 10% 10% ;
+    }
+}
